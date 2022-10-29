@@ -1,0 +1,17 @@
+{
+    "portfolio": [
+        {
+            "cover": "/blackjack_webapp_portfolio/blackjack_webapp.png",
+            "title": "Blackjack web application",
+            "description": "Html, Javascript, jQuery, springboot",
+            "url": "https://blackjack-application.herokuapp.com/"
+        },
+
+        {
+            "cover": "/database_website_portfolio/db_website.png",
+            "title": "Database website",
+            "description": "React, Springboot",
+            "url": "https://frontend-employee-app.herokuapp.com/"
+        }
+    ]
+}
