@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-s.png'
-import Logo from './Logo'
 import './index.scss'
 import Loader from 'react-loaders'
+import Logo from './Logo'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -34,8 +34,8 @@ const Home = () => {
           <br />
           <span className={`${letterClass} _13`}>I</span>
           <span className={`${letterClass} _14`}>'m</span>
-          <img src={LogoTitle} alt="developer"/>
           
+          <img className = "logo" src={LogoTitle} alt="developer"/>
           <AnimatedLetters letterClass={letterClass}
           strArray={nameArray}
           idx={15}/>
@@ -57,8 +57,8 @@ const Home = () => {
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
+          <Logo />
         </div>
-        <Logo />
       </div>
       <Loader type="pacman"/>
     </>

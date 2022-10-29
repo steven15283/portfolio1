@@ -6,7 +6,9 @@
     transform: translateY(-50%);
     width: 40%;
     max-height: 90%;
+
   }
+
 
   h1 {
     color: #fff;
@@ -81,7 +83,7 @@
 }
 
 
-/*
+
 @media screen and (max-width: 1200px) {
   .tags,
   .home-page h1:before,
@@ -114,15 +116,6 @@
     margin: auto;
     left: 0;
   }
-
-  .logo-container svg {
-    position: absolute;
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: 0;
-    margin: auto;
-  }
-*/
+}
 
 

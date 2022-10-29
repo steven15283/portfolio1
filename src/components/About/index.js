@@ -1,8 +1,5 @@
 import { useEffect, useState } from 'react'
 import {
-  //faCss3,
-  //faGitAlt,
-  //faGithub,
   faHtml5,
   faJsSquare,
   faReact,
@@ -15,6 +12,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 import cppLogo from '../../assets/images/C++_Logo.svg.png'
 import springbootLogo from '../../assets/images/springboot.png'
+import birdGif from '../../assets/images/happy-birds.gif'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -78,6 +76,10 @@ const About = () => {
                 <img src={cppLogo} />
                 </div>
             </div>
+            {/* <div className = "gif-container">
+              <img  src={birdGif} alt="Energy"/>
+            </div> */}
+            
         </div>
       </div>
       <Loader type="pacman" />
